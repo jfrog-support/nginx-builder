@@ -32,4 +32,6 @@ If needed, it will also pull the base nginx image available on the Docker Hub.
 
 ### Up & Running ###
 
-The nginx.sh script is already set to spawn an nginx container. Acquire bash access to it by running 'docker exec -it <container_name> /bin/bash'
+-The nginx.sh script is already set to spawn an nginx container. cURL https://$(YOUR_IP):443/v2 to see that the container and nginx booted OK. Nginx should be proxying your Artifactory server @YOUR_IP on port 8081, so make sure your Artifactory server is up and running. 
+
+-Acquire bash access to it by running 'docker exec -it <container_name> /bin/bash'
