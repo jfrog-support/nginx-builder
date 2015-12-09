@@ -32,4 +32,4 @@ If needed, it will also pull the base nginx image available on the Docker Hub.
 
 ### Up & Running ###
 
-The nginx.sh script is already set to spawn an nginx container. Acquire bash access to it by running 'docker exec -it <container_name> /bin/bash
+The nginx.sh script is already set to spawn an nginx container. Acquire bash access to it by running 'docker exec -it <container_name> /bin/bash'
