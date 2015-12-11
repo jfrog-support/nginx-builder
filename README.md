@@ -37,7 +37,7 @@ If needed, it will also pull the base nginx image available on the Docker Hub.
 
 `docker run -d -p 8000:80 -p 443:443 nginx_ssl`
 
-Run `curl -k https://$(YOUR_IP):443/v2 `  to see that the container and nginx booted OK. Nginx should be proxying your Artifactory server @ YOUR_IP on port 8081, so make sure your Artifactory server is up and running. 
+Run `curl -k https://$(YOUR_IP)/v2 `  to see that the container and nginx booted OK. Nginx should be proxying your Artifactory server @ YOUR_IP on port 8081, so make sure your Artifactory server is up and running. 
 
 -Acquire bash access to it by running `docker exec -it <container_name> /bin/bash`
 
